@@ -1,0 +1,445 @@
+NOte: Growth Hack in Soft Engineering -> How to get Better in Softare Development
+
+// get specitification
+    |
+ *\\ communicate
+- Goto meetups
+ - Make Friends
+- have a study group
+
+// read docs
+     |
+ *\\ Learn  </>
+   
+// code specification
+     |
+- Practice
+   Keep eye on learning and shrining s stuff
+   you teach
+   speak at it event
+   Watch youTube and create one
+   Build Rubbish - You learn from it
+   Solve local Challenge
+
+// write docs
+  Teach
+
+\\
+Focus is Key { get one key langugage master and build something with it}
+Practice every well but you need dedication.  Dont jump from one application to the order
+Dedicate one hour for three month.
+The people "you called master are busy leanring and improving while the beginners are busy watching series"
+
+< /consistency is the key>
+css trick.com
+css specifity - stuff and nonsense
+kackermoon.com -es6
+-regex geneerator - regexr.com/
+basic of regurla expression
+
+https://stackabuse.com/managing-environment-variables-in-node-js-with-dotenv/
+
+Environment variables are excellent for decoupling application configurations
+\\ Creating and reading environment variable//
+
+
+
+
+\\   https://job-home.martinsooladipo.now.sh/         //
+\\https://admindasboard2.martinsooladipo.now.sh/dasboard.html//
+\\  https://checklist.martinsooladipo.now.sh/spinner.html            //
+\\ https://checklist.martinsooladipo.now.sh/index.html       //
+
+
+
+function doHomework(subject, callback) {
+  alert(`Starting my ${subject} homework.`);
+  callback();
+}
+
+doHomework('math', function() {
+  alert('Finished my homework');
+});
+
+function factorial(n) { let digit = 13;
+while(n > 1) { digit *= n; n--; } return digit; }
+
+console.log(factorial(67));
+
+
+
+Zeit Now
+{
+  "version": 2,
+  "name": "codegig3",
+  "builds": [
+    { "src": "www/**/*", "use": "@now/static" },
+     { "src": "routes/**/*.js", "use": "@now/node" },
+    { "src": "models/**/*.js", "use": "@now/node" },
+    { "src": "config/**/*.js", "use": "@now/node" },
+     { "src": "public/*.html", "use": "@now/node" },
+     { "src": "views/**/*.js", "use": "@now/node" }
+  ],
+  "routes": [
+    { "src": "routes/index.ejs", "dest": "http://localhost:1984/" },
+    { "src": "routes/gigs.ejs", "dest": "http://localhost:1984/gigs" },
+    { "src": "routes/home.ejs", "dest": "http://localhost:1984/home" },
+    { "src": "routes/users/ejs", "dest": "http://localhost:1984/users/register" }
+  ]
+}
+C:\Users\Digup World\Downloads\ngrok-stable-windows-amd64
+
+When mixing these Boolean operators with arithmetic and other operators, it is not always obvious when parentheses are needed. In practice, you can usually get by with knowing that of the operators we have seen so far, || has the lowest precedence, then comes &&, then the comparison operators (>, ==, and so on), and then the rest. This order has been chosen such that, in typical expressions like the following one, as few parentheses as possible are necessary:
+1 + 1 == 2 && 10 * 10 > 50
+
+This one is called the conditional operator (or sometimes just the ternary operator since it is the only such operator in the language). The value on the left of the question mark “picks” which of the other two values will come out. When it is true, it chooses the middle value, and when it is false, it chooses the value on the right
+
+But what if you want to test whether something refers to the precise value false? Expressions like 0 == false and "" == false are also true because of automatic type conversion. When you do not want any type conversions to happen, there are two additional operators: === and !==. The first tests whether a value is precisely equal to the other, and the second tests whether it is not precisely equal. So "" === false is false as expected. 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+'use strict';// caues js to throw errors in places it would otherwise just be silently fail
+// and disallows the use of deprecated parts of js
+// object literal
+// object with two properties
+
+let cat = {
+name:'Fluffy',
+ 
+color:'White',
+ 
+speak: ()=>{
+ (display("Meeeow"))
+ }
+}
+
+// another properties 
+
+cat.age = 3;
+ 
+// speak function
+ 
+ 
+cat.speak();
+display(cat.age);
+display(cat.name);
+
+
+
+]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+
+'use strict';
+// constructor functions [syntatic sugur]
+/
+*function CatAnimal(name,color){
+  this.name = name
+  
+  this.color= color
+                 
+}
+
+let cat = new CatAnimal('Fluffy1','White'1);
+display (cat);
+*
+/
+
+//static class object type
+class Cat{
+     constructor(name,color){
+
+        this.name = name
+        
+this.color = color
+       }
+       
+   
+    speak(){
+        
+// method  
+        
+display('Meeow')
+       }
+}
+
+let cat = new Cat('Maru','White-Brown');
+
+display(cat);
+
+cat.speak();
+
+
+
+//////////////////////////////////////////////////////
+
+console.log("" !== false);
+console.log("" === false);
+console.log(true == 10);
+console.log("user" || "anges");//return user
+console.log(undefined || "anges");// anges
+console.log(2000 && "anges");// return anges
+console.log(2000 || "anges"); returns 2000
+
+console.log("" || "!?"); return !?
+console.log(0 || -1); //return -1
+console.log(0 && -1); return 0
+console.log( true || X); return true
+'''''''''''''''''''''''''''''''''
+let friends = ['Mike','Joke','\John\\','Sade'];
+let joiner = friends.join('-*-');
+console.log(joiner);
+let joiner2 = mixer.toLocaleString;
+console.log(joiner2);
+||||||||||||||||||||||||||||||||||||||||||||||
+let mixer = ['heelo',50,true,100,null,[1,2,3]];
+console.log(mixer);
+console.log(mixer.toString());
+console.log(mixer.toLocaleString());
+''''''''''''''''''''''''''''''''''
+console.log(temp + '°F')
+
+let str = 'I love JavaScript because its JavaScript'; let val = str.indexOf('JavaScript'); console.log(str,val); let lastVal = str.lastIndexOf('JavaScript'); console.log(lastVal)
+
+*******************************************************
+We can use this functionality as a way to fall back on a default value. 
+If you have a value that might be empty, you can put || after it with 
+a replacement value. If the initial value can be converted to false,
+ you’ll get the replacement instead. The rules for converting strings 
+and numbers to Boolean values state that 0, NaN,andtheemptystring("")
+count as false,whilealltheothervalues count as true. So 0 || -1 produces -1,
+ and "" || "!?" yields "!?". The && operator works similarly but the other way around.
+ When the value to its left is something that converts to false,
+it returns that value,and otherwise it returns the value on its right. 
+Another important property of these two operators is that the part to 
+their right is evaluated only when necessary. 
+In the case of true || X, no matter what X is—even if it’s a piece of
+ program that does something terrible—the result will be true,
+ and X is never evaluated. The same goes for false && X, which is false and will ignore X. This is called short-circuit evaluation. The conditional operator works in a similar way. Of the second and third values, only the one that is selected is evaluated
+
+
+
+
+The Miracle Morning - Hal Elrod
+https://www.thinkful.com/blog/why-learning-to-code-is-so-damn-hard/
+
+https://medium.com/free-code-camp/things-i-wish-someone-had-told-me-when-i-was-learning-how-to-code-565fc9dcb329
+
+https://www.coderbyte.com
+
+
+=======================================================================
+function makeUser(name, age) {
+  return {
+    name: name,
+    age: age
+    // ...other properties
+  };
+}
+
+let user = makeUser("John", 30);
+alert(user.name); // John
+
+function makeUser(name, age) {
+  return {
+    name, // same as name: name
+    age   // same as age: age
+    // ...
+  };
+}
+
+existence check
+A notable objects feature is that it’s possible to access any property.
+ There will be no error if the property doesn’t exist!
+ Accessing a non-existing property just returns undefined.
+ It provides a very common way to test whether the property exists
+ – to get it and compare vs undefined:
+
+let user = {};
+
+alert( user.noSuchProperty === undefined )
+
+There also exists a special operator "in" to check for the existence of a property.
+
+let user = { name: "John", age: 30 };
+
+alert( "age" in user ); // true, user.age exists
+alert( "blabla" in user ); // false, user.blabla doesn't exist
+
+Please note that on the left side of in there must be a property name. That’s usually a quoted string.
+
+If we omit quotes, that would mean a variable containing the actual name will be tested. For instance:
+////////////////////////////////////////////////////////////////////////////////////
+The “for…in” loop
+To walk over all keys of an object, there exists a special form of the loop: for..in. 
+This is a completely different thing from the for(;;) construct that we studied before.
+For instance, let’s output all properties of user:
+
+ let user = {
+  name: "John",
+  age: 30,
+  isAdmin: true
+};
+
+for (let key in user) {
+  // keys
+  alert( key );  // name, age, isAdmin
+  // values for the keys
+  alert( user[key] ); // John, 30, true
+}
+Note that all “for” constructs allow us to declare the looping variable inside the loop, like let key here.
+
+Also, we could use another variable name here instead of key. For instance, "for (let prop in obj)" is also widely used.
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+Ordered like an object
+Are objects ordered? In other words, if we loop over an object, do we get all properties in the same order they were added? Can we rely on this?
+
+The short answer is: “ordered in a special fashion”: integer properties are sorted, others appear in creation order. The details follow.
+
+As an example, let’s consider an object with the phone codes:
+
+ let codes = {
+  "49": "Germany",
+  "41": "Switzerland",
+  "44": "Great Britain",
+  // ..,
+  "1": "USA"
+};
+
+for (let code in codes) {
+  alert(code); // 1, 41, 44, 49
+}
+The object may be used to suggest a list of options to the user. If we’re making a site mainly for German audience then we probably want 49 to be the first.
+
+But if we run the code, we see a totally different picture:
+
+USA (1) goes first
+then Switzerland (41) and so on.
+The phone codes go in the ascending sorted order, because they are integers. So we see 1, 41, 44, 49.
+
+Integer properties? What’s that?
+The “integer property” term here means a string that can be converted to-and-from an integer without a change.
+
+So, “49” is an integer property name, because when it’s transformed to an integer number and back, it’s still the same. But “+49” and “1.2” are not:
+
+ // Math.trunc is a built-in function that removes the decimal part
+alert( String(Math.trunc(Number("49"))) ); // "49", same, integer property
+alert( String(Math.trunc(Number("+49"))) ); // "49", not same "+49" ? not integer property
+alert( String(Math.trunc(Number("1.2"))) ); // "1", not same "1.2" ? not integer property
+
+//////////////////////////////////////////////////////////////////////////////////
+
+On the other hand, if the keys are non-integer, then they are listed in the creation order, for instance:
+ 
+let user = {
+  name: "John",
+  surname: "Smith"
+};
+user.age = 25; // add one more
+
+// non-integer properties are listed in the creation order
+for (let prop in user) {
+  alert( prop ); // name, surname, age
+}
+
+////////////////////////////////////////////////////////////////////////
+
+Const object
+An object declared as const can be changed.
+
+For instance:
+
+const user = {
+  name: "John"
+};
+
+user.age = 25; // (*)
+
+alert(user.age); // 25
+It might seem that the line (*) would cause an error, but no, there’s totally no problem. That’s because const fixes only value of user itself. 
+And here user stores the reference to the same object all the time. 
+The line (*) goes inside the object, it doesn’t reassign user.
+=================================================================================
+
+display('Hello Word');
+let codeMan ={
+ name: "Martins",
+bad: "Where is going",
+ "Which is":true,
+}
+  
+     
+display(codeMan.name) 
+//delete codeMan.bad;
+//console.log(codeMan["which is"]);
+
+//console.log(codeMan)
+//
+
+const User = {
+    name:'Martins'
+   }
+   
+
+   User.age = 2;
+  
+ User.height ="6.2 cm";
+   
+
+   //let User = admin;
+   
+console.log(User);
+
+
+for(let prop in User)
+{
+      //alert(codeMan[key]);  
+      display(User);
+               
+}
+
+
+for(let prop in codeMan){
+      //alert(codeMan[key]);  
+ 
+     alert(codeMan);
+        
+       
+}
+
+let codes = {
+  "+49": "Germany",
+  "+41": "Switzerland",
+  "+44": "Great Britain",
+  // ..,
+  "+1": "USA"
+};
+
+for (let code in codes) {
+  display( +code ); // 49, 41, 44, 1
+}
+               
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+'use strict';
+
+var cat ={
+name:{first:"Maru",last:"bigCat"},
+ 
+  color:'White'
+}
+Object.defineProperty(cat,'fullName',
+{ get: function ()
+{
+ return this.name.first +' '+this.name.last
+ },
+               
+               set: function(value){
+                 var namePart= value.split(' ') 
+                 this.name.first = namePart[0];
+                 this.name.last= namePart[1];
+ 
+              }
+})
+display(cat.fullName);
+
+.
+prototype is an object that exist on every function in javascript
